@@ -1,27 +1,17 @@
-# proxy
-.proxy.js
-
-# env
-.env
-
-# DS_Store
 .DS_Store
-
-# compiled file
-dist
-
-# node_modules
-node_modules
-
-# coverage
-coverage
-.nyc_output
-
-# logs
+node_modules/
+/dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-selenium-debug.log*
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
 
-#mock
-mock/*.json
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
